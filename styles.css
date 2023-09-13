@@ -39,3 +39,8 @@ article {
 
 .byline {font-family: Tahoma, Arial, sans-serif;}
 
+dl {
+  border-bottom: 1px grey dotted;
+  border-top: 1px grey dotted;
+}
+
