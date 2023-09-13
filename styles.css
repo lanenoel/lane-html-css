@@ -37,7 +37,8 @@ article {
   margin-left: auto;
 }
 
-.byline {font-family: Tahoma, Arial, sans-serif;}
+.byline {font-family: Tahoma, Arial, sans-serif;
+}
 
 dl {
   border-bottom: 1px grey dotted;
@@ -54,4 +55,63 @@ dt {
   font-weight: bold;
 }
 
+header {
+  float: left;
+  width: 48%;
+}
 
+figure#main-recipe-photo {
+  float: right;
+  width: 48%;
+}
+
+figure#main-recipe-photo img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+figcaption {
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 1.2rem;
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  margin-bottom: 20px;
+  clear: both;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+ol li {
+  margin-top: 8px;
+}
+
+#nutrition li {
+  list-style-type: none;
+  border-bottom: grey dotted 1px;
+  float: left;
+  width: 48%
+}
+
+#nutrition li:nth-child(odd) {
+  margin-right: 20px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  margin-top: 140px;
+}
+
+footer p {
+  font: 1.2rem Arial;
+}
