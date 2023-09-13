@@ -42,5 +42,16 @@ article {
 dl {
   border-bottom: 1px grey dotted;
   border-top: 1px grey dotted;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 1.4rem;
+  padding: 12px 0px;
+  margin-top: 16px;
 }
+
+dt {
+  float: left;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
 
